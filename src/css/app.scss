@@ -1,0 +1,38 @@
+// app global css in SCSS form
+.user-message-table {
+    max-height: 93vh;
+}
+
+.required .q-field__label:before {
+    content: "* ";
+    color: rgb(0, 255, 136);
+}
+
+.q-field--float .q-field__label {
+    transform: translateY(-120%) translateX(-5px) scale(0.75);
+    background: rgb(255, 255, 255);
+    right: inherit;
+    padding: 0px 5px;
+    z-index: 10;
+}
+
+.q-field--dense.q-field--float .q-field__label {
+    transform: translateY(-85%) translateX(-5px) scale(0.75);
+}
+
+[dir="rtl"] .q-field--dense .q-field__label {
+    text-align: right;
+}
+
+.q-field--labeled.q-field--dense .q-field__native {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.q-date__today {
+    box-shadow: 0 0 3px $warning;
+}
+
+.q-checkbox__svg {
+    color: black;
+}
